@@ -32,17 +32,15 @@ Esta é uma `RESTful API` para gestão de tarefas.
   
   `/user/register`
     ```JSON 
-    // request body
     {
       "username": "root",
       "pwd": "toor",
-      "bio": "powerful user" // this is optional
+      "bio": "powerful user"
     }
     ```
 
   `/user/login`
     ```JSON 
-    // request body
     {
       "username": "root",
       "pwd": "toor",
