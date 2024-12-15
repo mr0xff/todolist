@@ -42,6 +42,6 @@ app.use(async(req, res, next)=>{
 app.use('/user', user);
 app.use('/task', task);
 
-app.listen(process.env.LISTEN_PORT, ()=>{
+app.listen(process.env.LISTEN_PORT || 3000, ()=>{
   console.log('[+] server listen to port %d', process.env.LISTEN_PORT)
 });
